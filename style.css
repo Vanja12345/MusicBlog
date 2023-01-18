@@ -1,13 +1,15 @@
 .navbar{
-    border-bottom: 1px solid black;
-    padding: 16px;
+
+    padding: .5px;
+    padding-top: .5px;
     background-color: rgb(215, 140, 252);
 }
 
 .navbar .container{
     align-items: center;
     display: flex;
-    justify-content: space-between;
+   justify-content: center;
+
 
 }
 
@@ -31,25 +33,55 @@ padding: 0;
 
 
 h1{
+    text-align: left;
+    margin: 5%;
+    padding: 10;
+    font-size: larger;
+    text-size-adjust: 20;
+}
+
+h2{
     text-align: center;
-    margin: 0%;
-    padding: 0;
+    margin: 5%;
+    padding: 10;
+    font-size: larger;
 }
 
 h5{
     text-align: center;
-    margin: 0%;
+    margin: 5%;
     padding: 0%;
+    font-size: large;
 }
 
 img{
     width: 677px;
-    
+    height: 700px;
+    align-items: center;
 }
+
+
 
 
 footer{
     background-color: rgb(187, 187, 187);
+    margin-top: 64px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+button{
+
+        background-color: rgb(158, 106, 207);
+        border-radius: .100em;
+        color: black;
+        padding: .5em;
+        padding-left: .99em;
+        padding-right: .99em;
+        margin: 10;
+        padding: 10;
+        text-align: center;
+
 }
 
 
